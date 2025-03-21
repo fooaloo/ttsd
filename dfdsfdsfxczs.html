@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+        }
+        .video-container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+            padding: 20px;
+        }
+        .video-box {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .video-box video {
+            width: 100%;
+            height: 200px;
+            border-bottom: 1px solid #ddd;
+            controlslist: nodownload;
+        }
+        .video-box h3 {
+            margin: 10px;
+            text-align: center;
+        }
+        .legal-note {
+            background-color: #ddd;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+            font-size: 0.9em;
+        }
+        body {
+            -webkit-user-select: none; 
+            -moz-user-select: none;    
+            -ms-user-select: none;      
+            user-select: none;         
+        }
+    </style>
+    <script>
+        document.addEventListener('contextmenu', function(e) {
+            e.preventDefault();
+        });
+    </script>
+</head>
+<body>
+
+<header>
+    <h1>Video Gallery</h1>
+    <img src="https://ia800109.us.archive.org/0/items/monkey-spin/monkey%20spin.gif" alt="Monkey Spin" width="100">
+</header>
+
+<div class="video-container">
+    <!-- Video 1 -->
+    <div class="video-box">
+        <h3>Breaking Bad - Season 1, Episode 1</h3>
+        <video controls controlslist="nodownload">
+            <source src="https://dn720701.ca.archive.org/0/items/brba_all/brba/season1/episode01s1.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <div class="video-box">
+        <h3>Breaking Bad - Season 1, Episode 2</h3>
+        <video controls controlslist="nodownload">
+            <source src="https://dn720701.ca.archive.org/0/items/brba_all/brba/season1/episode02s1.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <div class="video-box">
+        <h3>Breaking Bad - Season 1, Episode 3</h3>
+        <video controls controlslist="nodownload">
+            <source src="https://dn720701.ca.archive.org/0/items/brba_all/brba/season1/episode03s1.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <div class="video-box">
+        <h3>Breaking Bad - Season 1, Episode 4</h3>
+        <video controls controlslist="nodownload">
+            <source src="https://dn720701.ca.archive.org/0/items/brba_all/brba/season1/episode04s1.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <!-- Video 2 -->
+    <div class="video-box">
+        <h3>Jeffrey Dahmer - Season 1, Episode 1</h3>
+        <video controls controlslist="nodownload">
+            <source src="https://ia600203.us.archive.org/25/items/dahmer-2022-complete-s-01-720p-3/DAHMER.S01.720p.NF.WEBRip.DDP5.1.Atmos.x264-SMURF%5Brartv%5D/DAHMER.S01E01.Episode.One.720p.NF.WEB-DL.DDP5.1.Atmos.H.264-SMURF.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <div class="video-box">
+        <h3>Jeffrey Dahmer - Season 1, Episode 2</h3>
+        <video controls controlslist="nodownload">
+            <source src="https://ia800203.us.archive.org/25/items/dahmer-2022-complete-s-01-720p-3/DAHMER.S01.720p.NF.WEBRip.DDP5.1.Atmos.x264-SMURF%5Brartv%5D/DAHMER.S01E02.Please.Dont.Go.720p.NF.WEB-DL.DDP5.1.Atmos.H.264-SMURF.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <div class="video-box">
+        <h3>Jeffrey Dahmer - Season 1, Episode 3</h3>
+        <video controls controlslist="nodownload">
+            <source src="https://ia800203.us.archive.org/25/items/dahmer-2022-complete-s-01-720p-3/DAHMER.S01.720p.NF.WEBRip.DDP5.1.Atmos.x264-SMURF%5Brartv%5D/DAHMER.S01E03.Doin.A.Dahmer.720p.NF.WEB-DL.DDP5.1.Atmos.H.264-SMURF.mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <div class="video-box">
+        <h3>Jeffrey Dahmer - Season 1, Episode 4</h3>
+        <video controls controlslist="nodownload">
+            <source src="https://ia800203.us.archive.org/25/items/dahmer-2022-complete-s-01-720p-3/DAHMER.S01.720p.NF.WEBRip.DDP5.1.Atmos.x264-SMURF%5Brartv%5D/DAHMER.S01E04.The.Good.Boy.Box.720p.NF.WEB-DL.DDP5.1.Atmos.H.264-SMURF.mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+</div>
+
+<div class="legal-note">
+    &copy; 2025 fooaloo. All rights reserved. Unauthorized distribution or reproduction of this content is strictly prohibited.
+</div>
+
+</body>
+</html>
